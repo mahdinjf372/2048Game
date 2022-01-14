@@ -1,3 +1,10 @@
+* {
+    user-select: none;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 #game-board {
     position: absolute;
     margin: auto;
@@ -35,4 +42,13 @@ img {
     font-weight: 750;
     transition: margin 0.15s linear, background 0.05s linear, transform 0.05s linear;
     transform-origin: center;
+}
+
+.swiper-container {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 40px);
+    z-index: 10;
 }
